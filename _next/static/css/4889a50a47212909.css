@@ -1,0 +1,81 @@
+.styles_containerMenu__YmrCY {
+    background-color: var(--color-dark)
+}
+
+.styles_containerNav__uaFU2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0
+}
+
+.styles_containerNav__uaFU2 nav ul {
+    display: flex;
+    align-items: center;
+    gap: 48px
+}
+
+.styles_containerNav__uaFU2 nav a {
+    font-size: 1.8rem;
+    color: var(--color-white-200);
+    font-weight: 400
+}
+
+.styles_containerNav__uaFU2 nav ul li a:hover {
+    color: var(--color-white)
+}
+
+.styles_profileMenu__WlUb_ {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.styles_profileMenu__WlUb_ img {
+    width: 150px
+}
+
+@media screen and (max-width:688px) {
+    .styles_containerNav__uaFU2 {
+        flex-wrap: wrap;
+        gap: 32px
+    }
+    .styles_profileMenu__WlUb_ img {
+        display: none
+    }
+}
+
+@media screen and (max-width:540px) {
+    .styles_containerNav__uaFU2 {
+        justify-content: center
+    }
+}
+
+.setup_setup__LxlZB h2 {
+    font-size: 3.2rem;
+    margin-bottom: 32px
+}
+
+.setup_setup__LxlZB div h3 {
+    font-size: 2.4rem;
+    margin: 24px 0
+}
+
+.setup_setup__LxlZB div ul {
+    margin-top: 40px
+}
+
+.setup_setup__LxlZB div ul li {
+    line-height: 180%
+}
+
+.setup_setup__LxlZB div ul li:before {
+    content: "\2022 ";
+    color: var(--color-primary);
+    margin-right: 16px
+}
+
+.setup_setup__LxlZB div ul li a {
+    font-size: 1.8rem
+}

@@ -1,0 +1,168 @@
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em
+}
+
+code.hljs {
+    padding: 3px 5px
+}
+
+.hljs {
+    color: #abb2bf;
+    background: #282c34
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #5c6370;
+    font-style: italic
+}
+
+.hljs-doctag,
+.hljs-formula,
+.hljs-keyword {
+    color: #c678dd
+}
+
+.hljs-deletion,
+.hljs-name,
+.hljs-section,
+.hljs-selector-tag,
+.hljs-subst {
+    color: #e06c75
+}
+
+.hljs-literal {
+    color: #56b6c2
+}
+
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta .hljs-string,
+.hljs-regexp,
+.hljs-string {
+    color: #98c379
+}
+
+.hljs-attr,
+.hljs-number,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-pseudo,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable {
+    color: #d19a66
+}
+
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-symbol,
+.hljs-title {
+    color: #61aeee
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title,
+.hljs-title.class_ {
+    color: #e6c07b
+}
+
+.hljs-emphasis {
+    font-style: italic
+}
+
+.hljs-strong {
+    font-weight: 700
+}
+
+.hljs-link {
+    text-decoration: underline
+}
+
+.styles_containerMenu__YmrCY {
+    background-color: var(--color-dark)
+}
+
+.styles_containerNav__uaFU2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0
+}
+
+.styles_containerNav__uaFU2 nav ul {
+    display: flex;
+    align-items: center;
+    gap: 48px
+}
+
+.styles_containerNav__uaFU2 nav a {
+    font-size: 1.8rem;
+    color: var(--color-white-200);
+    font-weight: 400
+}
+
+.styles_containerNav__uaFU2 nav ul li a:hover {
+    color: var(--color-white)
+}
+
+.styles_profileMenu__WlUb_ {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.styles_profileMenu__WlUb_ img {
+    width: 150px
+}
+
+@media screen and (max-width:688px) {
+    .styles_containerNav__uaFU2 {
+        flex-wrap: wrap;
+        gap: 32px
+    }
+    .styles_profileMenu__WlUb_ img {
+        display: none
+    }
+}
+
+@media screen and (max-width:540px) {
+    .styles_containerNav__uaFU2 {
+        justify-content: center
+    }
+}
+
+.styles_footer__d2n6E {
+    width: 100%;
+    height: auto;
+    padding: var(--gap-24) 0;
+    background-color: var(--color-dark-200)
+}
+
+.styles_footer__d2n6E section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+.styles_footer__d2n6E div {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-8)
+}
+
+.styles_footer__d2n6E p {
+    font-size: 1.8rem;
+    line-height: 160%
+}
+
+.styles_footer__d2n6E a {
+    font-weight: 500;
+    padding: 0 8px
+}
